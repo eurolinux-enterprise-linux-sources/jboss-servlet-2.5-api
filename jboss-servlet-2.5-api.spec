@@ -3,7 +3,7 @@
 
 Name:             jboss-servlet-2.5-api
 Version:          1.0.1
-Release:          4%{dist}
+Release:          5%{dist}
 Summary:          Java Servlet 2.5 API
 Group:            Development/Libraries
 License:          ASL 2.0 and W3C
@@ -70,6 +70,9 @@ cp -rp target/site/apidocs/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.1-5
+- Mass rebuild 2013-12-27
+
 * Thu Jul 11 2013 Ade Lee <alee@redhat.com> 1.0.1-4
 - Removed unneeded build dependencies
 
